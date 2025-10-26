@@ -1,0 +1,23 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+.DS_Store
+build/
+dist/
+tmp/
+coverage/
+*.log
+*.tgz
+*.zip
+*.rar
+*.7z
+
+# OpenAI API related
+# This is crucial to prevent your API key from being committed to version control.
+# Ensure your API key is loaded from an environment variable or a separate, ignored configuration file.
+config.js
+secrets.js
+api_keys.json
